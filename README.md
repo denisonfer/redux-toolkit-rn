@@ -11,3 +11,6 @@ Após o git clone
 1 - execute o comando no terminal do projeto = yarn   
 2 - cd ios && pod install && cd ..  
 3 - execute o projeto = yarn android ou yarn ios
+
+# Preview
+![Alt Text](https://github.com/denisonfer/redux-toolkit-rn/blob/main/assets/redux-toolkit.gif)
