@@ -8,6 +8,7 @@ export const Container = styled(TouchableOpacity)`
   background-color: ${({isActive}) => (isActive ? 'green' : 'gainsboro')};
   border-radius: 4px;
   margin-top: 20px;
+  margin-bottom: 20px;
 `;
 
 export const Square = styled.View`

@@ -3,6 +3,7 @@ import {useSelector} from 'react-redux';
 import {ThemeProvider} from 'styled-components';
 
 import Switch from './components/Switch';
+import Websocket from './components/Websocket';
 
 import {Container, Text} from './styles';
 
@@ -14,6 +15,7 @@ const App = () => {
       <Container>
         <Text> DARK MODE</Text>
         <Switch />
+        <Websocket />
       </Container>
     </ThemeProvider>
   );
